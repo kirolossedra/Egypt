@@ -187,7 +187,12 @@ function TranslateP(x){
           }
         }
 
-        arr1.sort((a,b) => a.length - b.length);
+        arr1.sort(function(a, b){
+  // ASC  -> a.length - b.length
+  // DESC -> b.length - a.length
+  return a.length - b.length;
+});
+
         var max =-1;
 
         for(var i=0; i<arr1.length; i++){
