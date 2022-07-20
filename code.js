@@ -190,7 +190,7 @@ function TranslateP(x){
         arr1.sort(function(a, b){
   // ASC  -> a.length - b.length
   // DESC -> b.length - a.length
-  return a.length - b.length;
+  return b.length - a.length;
 });
 
         var max =-1;
