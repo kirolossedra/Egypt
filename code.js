@@ -188,12 +188,18 @@ function TranslateP(x){
         }
 
         p=egp[arr1[0]];
+        var max =-1;
 
         for(var i=0; i<arr1.length; i++){
-          if(egp[arr1[i]].length>1){
+         if(max!= -1 && egp[arr1[i]].length>max){
+p = egp[arr1[i]]
+break;
+}
+
+          if(egp[arr1[i]].length>max){
             
             p=egp[arr1[i]];
-            break;
+            max = egp[arr1[i]].length
           }
         }
         
