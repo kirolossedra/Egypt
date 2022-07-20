@@ -187,7 +187,7 @@ function TranslateP(x){
           }
         }
 
-        p=egp[arr1[0]];
+        arr1.sort((a,b) => a.length - b.length);
         var max =-1;
 
         for(var i=0; i<arr1.length; i++){
