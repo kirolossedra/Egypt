@@ -248,8 +248,8 @@ function TranslateP(x){
 
 
   var months = ["month-i","month-ii","month-iii","month-iv","month-v","month-vi","month-vii","month-viii","month-ix","month-x",
-  "month-xi","month-xii"]
-  var egmonths = ["𓇹𓏺𓆷𓐍𓏏𓇳","𓇹𓏻𓆷𓐍𓏏𓇳","𓇹𓏦𓆷𓐍𓏏𓇳","𓇹𓏽𓆷𓐍𓏏𓇳","𓇹𓏤𓉐𓏏𓏏𓇳","𓇹𓏮𓉐𓏏𓏏𓇳","𓇹𓏦𓉐𓏏𓏏𓇳","𓇹𓏽𓉐𓏏𓏏𓇳","𓇹𓏤𓈙𓈗𓇳","𓇹𓏮𓈙𓈗𓇳","𓇹𓏦𓈙𓈗𓇳","𓇹𓏽𓈙𓈗𓇳"]
+  "month-xi","month-xii" ,"month-xiii"]
+  var egmonths = ["𓇹𓏺𓆷𓐍𓏏𓇳 𓅝𓏏𓏭𓅆𓎱𓇳","𓇹𓏻𓆷𓐍𓏏𓇳 𓊪𓈖𓇋𓊪𓏏𓉐𓎱𓇳","𓇹𓏦𓆷𓐍𓏏𓇳 𓉗𓏏𓉐𓁷𓂋𓆗𓎱𓇳","𓇹𓏽𓆷𓐍𓏏𓇳 𓂓𓁷𓏤𓂓𓎱𓇳","𓇹𓏤𓉐𓏏𓏏𓇳 𓏏𓄿𓂝𓃀𓏏𓏯𓎱𓇳","𓇹𓏮𓉐𓏏𓏏𓇳 𓊪𓈖𓅮𓄿𓅓𓂝𓐍𓏭𓃭𓏤𓉐𓎱𓇳","𓇹𓏦𓉐𓏏𓏏𓇳 𓊪𓈖𓍹𓇋𓏠𓈖𓅆𓊵𓏏𓊪𓍺𓅆𓎱𓇳","𓇹𓏽𓉐𓏏𓏏𓇳 𓊪𓈖𓂋𓈖𓏌𓍢𓏏𓆇𓆗𓎱𓇳","𓇹𓏤𓈙𓈗𓇳 𓊪𓈖𓐍𓈖𓇓𓏲𓅆𓎱𓇳","𓇹𓏮𓈙𓈗𓇳 𓊪𓈖𓇋𓆛𓈖𓏏𓈊𓎱𓇳","𓇹𓏦𓈙𓈗𓇳 𓇋𓊪𓇋𓊪𓏯𓎱𓇳","𓇹𓏽𓈙𓈗𓇳 𓄟𓋴𓅱𓏏𓁒𓇳𓏤𓎱𓇳" , "𓆳𓁷𓏤𓅱𓇳𓏾"]
   for(var i =0; i<months.length; i++){
     if(x==months[i]){
       p= egmonths[i];
