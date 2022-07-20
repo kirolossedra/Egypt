@@ -203,7 +203,7 @@ break;
             max = egp[arr1[i]].length
           }
         }
-p = egp[arr1[1]]
+
         
         
        
