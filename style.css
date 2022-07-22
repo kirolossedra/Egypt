@@ -7,7 +7,7 @@
 .hwrap {
 /* (A1) DIMENSIONS */
 width: 100%;
-height: relative; /* OPTIONAL */
+height: 300px; /* OPTIONAL */
 bottom: 0;
 vertical-align: bottom;
 
