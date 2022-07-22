@@ -62,7 +62,7 @@ padding: 10px;
 97% { right: 200%; }
 100% { right: 0; }
 }
-.hmove { animation: slideh linear 15s infinite; }
+.hmove { animation: slideh linear 30s infinite; }
 .hmove:hover { animation-play-state: paused; }
 
 
