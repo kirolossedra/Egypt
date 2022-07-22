@@ -3,7 +3,14 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: normal;
 }
-
+.bot{
+    
+    vertical-align: bottom;
+    bottom : 0;
+    position: absolute;
+    
+    
+}
 
 .define{
   
