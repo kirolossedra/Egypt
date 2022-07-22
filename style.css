@@ -16,6 +16,7 @@ footer {
   /* (A1) DIMENSIONS */
   width: 100%;
   height: 150px; /* OPTIONAL */
+  position:button;
 
   /* (A2) COSMETICS */
   background: #fffdea;
