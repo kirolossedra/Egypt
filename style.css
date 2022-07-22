@@ -6,6 +6,7 @@
 
 footer {
     max-width: 37.5rem;
+    position:button;
     margin: 0 auto;
     padding: 0 1.25rem;
     font-family: 'Lato', sans-serif;
