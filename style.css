@@ -4,6 +4,18 @@
     font-weight: normal;
 }
 /* (A) OUTER CONTAINER */
+.dehk{
+    opacity: 0;
+font-weight: 0;
+}
+.dehk1{
+    opacity: 0;
+font-weight: 0;
+}
+.dehk2{
+    opacity: 0;
+font-weight: 0;
+}
 .hwrap {
 /* (A1) DIMENSIONS */
 width: 100%;
