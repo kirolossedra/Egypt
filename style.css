@@ -43,13 +43,11 @@ padding: 10px;
 
 /* (D1) BUT THE ABOVE WILL SHIFT NON-STOP */
 /* SO WE ADD PAUSES BETWEEN EACH SLIDE */
-0% { right: 0; }
-30% { right: 0; }
-33% { right: 100%; }
-63% { right: 100%; }
-66% { right: 200%; }
-97% { right: 200%; }
-100% { right: 0; }
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-100%); }
+  50% { transform: translateX(-200%); }
+  75% { transform: translateX(-300%); }
+  100% { transform: translateX(0); }
 }
 .hmove { animation: slideh linear 40s infinite; }
 .hmove:hover { animation-play-state: paused; }
